@@ -1,0 +1,21 @@
+.accordian > .bdy {
+    /* border: 1px solid black; */
+    /* padding: 15px;
+    margin: 5px */
+}
+.accordian > .bdy > .header {
+    border: 2px solid green;
+    box-shadow: 2px;
+    border-radius: 5px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.accordian {
+    box-sizing: border-box;
+}
+.accordian > .bdy > .desc {
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px 5px 5px 5px;
+    min-height: 100px;
+}

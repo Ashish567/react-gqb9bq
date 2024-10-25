@@ -3,6 +3,7 @@ import './style.css';
 import { Counter } from './Counter';
 import Timer from './Timer';
 import Accordian from './Accordian';
+import Accordian2 from './Accordian2';
 
 export const Context = createContext(null);
 
@@ -37,7 +38,8 @@ export default function App() {
         <p>Simple Timer</p>
         <Timer />
       </div> */}
-      <Accordian />
+      {/* <Accordian /> */}
+      <Accordian2 />
     </>
   );
 }
