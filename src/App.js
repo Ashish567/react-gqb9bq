@@ -4,6 +4,7 @@ import { Counter } from './Counter';
 import Timer from './Timer';
 import Accordian from './Accordian';
 import Accordian2 from './Accordian2';
+import StarRating from './StarRating'
 
 export const Context = createContext(null);
 
@@ -38,8 +39,9 @@ export default function App() {
         <p>Simple Timer</p>
         <Timer />
       </div> */}
-      {/* <Accordian /> */}
-      <Accordian2 />
+      {/* <Accordian />
+      <Accordian2 /> */}
+      <StarRating/>
     </>
   );
 }
