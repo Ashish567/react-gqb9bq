@@ -5,6 +5,7 @@ import Timer from './Timer';
 import Accordian from './Accordian';
 import Accordian2 from './Accordian2';
 import StarRating from './StarRating'
+import Tabs from './Tabs';
 
 export const Context = createContext(null);
 
@@ -42,6 +43,7 @@ export default function App() {
       {/* <Accordian />
       <Accordian2 /> */}
       {/* <StarRating/> */}
+      <Tabs/>
     </>
   );
 }

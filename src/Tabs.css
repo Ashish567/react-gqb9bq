@@ -1,0 +1,25 @@
+.tab-headers {
+    display: flex;
+    width: 90vw;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid red;
+    /* padding: 15px; */
+    background-color: aquamarine;
+}
+.tab-header {
+    min-width: 100px;
+    margin: 0 20px 0 20px;
+    height: max-content;
+    padding: 10px 10px 10px 10px;
+}
+.tab-header:hover {
+    background-color: cadetblue;
+}
+.tab-headers > li {
+    list-style-type: none;
+    cursor: pointer;
+}
+.active-tab {
+    border: 1px solid black;
+}

@@ -19,7 +19,7 @@ export default function Tabs() {
     <section class="tabs">
        <ul class="tab-headers">
          {
-            tab.map(({name}) => <li onClick={() => setActive(name)} class="tab-header">{name}</li>)
+            tab.map(({name}) => <li onClick={() => setActive(name)} className={`tab-header ${active == name && "active-tab"}`}>{name}</li>)
          }
        </ul>
        <TabComp activeTab={active} tab={tab}/>
