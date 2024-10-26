@@ -41,7 +41,7 @@ export default function App() {
       </div> */}
       {/* <Accordian />
       <Accordian2 /> */}
-      <StarRating/>
+      {/* <StarRating/> */}
     </>
   );
 }
