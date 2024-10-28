@@ -1,0 +1,27 @@
+.nav-logo {
+    float: left;
+}
+.nav {
+    display: block;
+    border: 1px solid black;
+    padding: 15px 10px 30px 10px;
+}
+.nav-menu-block {
+    float: right;
+}
+.nav-menu-block ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.nav-menu-block ul li {
+ margin: 0 4px 0 4px;
+ cursor: pointer;
+}
+.nav-menu-block ul li:active {
+    background-color: coral;
+}
+.nav-menu ul li:hover {
+    background-color: darkgoldenrod;
+}
